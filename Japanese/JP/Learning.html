@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:rnews="http://iptc.org/std/rNews/2011-10-07#"  xml:lang="en" >
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/japanese.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<div id="wrapper">
+	<div class="cb">
+		<h3>
+			<input class="write" name="learn" checked type="radio"> Write - 
+			<input class="type" name="learn" type="radio"> Type
+			<input class="next" value="GO" type="button">
+		</h3>
+		<hr>
+		<h2>
+			<input class="hiragana-check" type="checkbox"> Hiragana - 
+			<input class="katakana-check" type="checkbox"> Katakana
+		</h2>
+		<hr>
+		<div class="input">
+			<input value="0"  class="hiragana word" type="checkbox" name="a">  <input value="26" class="katakana word" type="checkbox" name="katakana_a"> a i u e o<br>
+			<input value="1"  class="hiragana word" type="checkbox" name="ka"> <input value="27" class="katakana word" type="checkbox" name="katakana_ka"> ka ki ku ke ko<br>
+			<input value="2"  class="hiragana word" type="checkbox" name="sa"> <input value="28" class="katakana word" type="checkbox" name="katakana_sa"> sa shi su se so<br>
+			<input value="3"  class="hiragana word" type="checkbox" name="ta"> <input value="29" class="katakana word" type="checkbox" name="katakana_ta"> ta chi tsu te to<br>
+			<input value="4"  class="hiragana word" type="checkbox" name="na"> <input value="30" class="katakana word" type="checkbox" name="katakana_na"> na ni nu ne no<br>
+			<input value="5"  class="hiragana word" type="checkbox" name="ha"> <input value="31" class="katakana word" type="checkbox" name="katakana_ha"> ha hi fu he ho<br>
+			<input value="6"  class="hiragana word" type="checkbox" name="ma"> <input value="32" class="katakana word" type="checkbox" name="katakana_ma"> ma mi mu me mo<br>
+			<input value="7"  class="hiragana word" type="checkbox" name="ya"> <input value="33" class="katakana word" type="checkbox" name="katakana_ya"> ya yu yo<br>
+			<input value="8"  class="hiragana word" type="checkbox" name="ra"> <input value="34" class="katakana word" type="checkbox" name="katakana_ra"> ra ri ru re ro<br>
+			<input value="9"  class="hiragana word" type="checkbox" name="wa"> <input value="35" class="katakana word" type="checkbox" name="katakana_wa"> wa wo n<br>
+			<input value="10" class="hiragana word" type="checkbox" name="ga"> <input value="36" class="katakana word" type="checkbox" name="katakana_ga"> ga gi gu ge go<br>
+			<input value="11" class="hiragana word" type="checkbox" name="za"> <input value="37" class="katakana word" type="checkbox" name="katakana_za"> za ji zu ze zo<br>
+			<input value="12" class="hiragana word" type="checkbox" name="da"> <input value="38" class="katakana word" type="checkbox" name="katakana_da"> da dji dzu de do<br>
+			<input value="13" class="hiragana word" type="checkbox" name="ba"> <input value="39" class="katakana word" type="checkbox" name="katakana_ba"> ba bi bu be bo<br>
+			<input value="14" class="hiragana word" type="checkbox" name="pa"> <input value="40" class="katakana word" type="checkbox" name="katakana_pa"> pa pi pu pe po<br>
+			<hr>
+			<input value="15" class="hiragana word" type="checkbox" name="kya"> <input value="41" class="katakana word" type="checkbox" name="katakana_kya"> kya kyu kyo<br>
+			<input value="16" class="hiragana word" type="checkbox" name="sha"> <input value="42" class="katakana word" type="checkbox" name="katakana_sha"> sha shu sho<br>
+			<input value="17" class="hiragana word" type="checkbox" name="cha"> <input value="43" class="katakana word" type="checkbox" name="katakana_cha"> cha chu cho<br>
+			<input value="18" class="hiragana word" type="checkbox" name="nya"> <input value="44" class="katakana word" type="checkbox" name="katakana_nya"> nya nyu nyo<br>
+			<input value="19" class="hiragana word" type="checkbox" name="hya"> <input value="45" class="katakana word" type="checkbox" name="katakana_hya"> hya hyu hyo<br>
+			<input value="20" class="hiragana word" type="checkbox" name="mya"> <input value="46" class="katakana word" type="checkbox" name="katakana_mya"> mya myu myo<br>
+			<input value="21" class="hiragana word" type="checkbox" name="rya"> <input value="47" class="katakana word" type="checkbox" name="katakana_rya"> rya ryu ryo<br>
+			<input value="22" class="hiragana word" type="checkbox" name="gya"> <input value="48" class="katakana word" type="checkbox" name="katakana_gya"> gya gyu gyo<br>
+			<input value="23" class="hiragana word" type="checkbox" name="ja">  <input value="49" class="katakana word" type="checkbox" name="katakana_ja"> ja ju jo<br>
+			<input value="24" class="hiragana word" type="checkbox" name="bya"> <input value="50" class="katakana word" type="checkbox" name="katakana_bya"> bya byu byo<br>
+			<input value="25" class="hiragana word" type="checkbox" name="pya"> <input value="51" class="katakana word" type="checkbox" name="katakana_pya"> pya pyu pyo<br>
+		</div>
+	</div>
+	<div class="content">
+		<p class="header-text">Learning Japanese</p>
+		<div class="text-write">
+			<p class="hika"></p>
+			<p class="text"></p>
+		</div>
+		<div class="images">
+			<img src="images/zz.png" alt="Smiley face">
+		</div>
+		<input style="display:none" class="learn-text-type" type="text">
+		<br>
+		<a class="forgot" href="javascript:void(0)">forgot</a>
+		<br>
+		<p style="display:none" class="text-forgot"></p>
+		<br>
+		<span class="count-time"></span>
+		<br>
+		<span>Type space continue</span>
+	</div>
+</div>
+<script>
+	$(function () {
+		if (window.FileReader) {
+			$('#file1').on('change', function (e) {
+				var file = e.target.files[0];
+				var reader = new FileReader();
+				console.log(reader);
+				reader.onload = function (e) {
+					var csv = reader.result.split(',');
+					$('#textarea1').val(csv.join('\n'));
+				}
+				reader.readAsText(file);
+			});
+		} else {
+			console.log("no support");
+		}
+	});
+</script>
+
+
+
+</body>
+</html>

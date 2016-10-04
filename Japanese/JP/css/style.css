@@ -1,0 +1,51 @@
+#wrapper {
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+#wrapper p {
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.cb {
+	text-align: left;
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+.cb {
+	float: left;
+	padding: 10px;
+	background: rgb(217, 239, 252);
+	border-radius: 5px;
+}
+div.images {
+	height:150px;
+	width:100%;
+	padding-top: 30px;
+}
+.content {
+	width: 65%;
+	float: left;
+	margin-left: 10px;
+}
+.clear {
+	clear: both;
+}
+h2 {
+	margin-bottom: 0px;
+}
+.learn-text-type {
+	margin-top: 40px;
+}
+input[type=button] {
+	margin: 0px 40px;
+	padding: 0px 15px;
+}
+.header-text {
+	margin:0px;
+	background: rgb(187, 187, 187);
+}
